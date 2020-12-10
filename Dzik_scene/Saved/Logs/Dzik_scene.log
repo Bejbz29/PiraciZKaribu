@@ -1903,3 +1903,15 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.12.10-14.49.56:992][ 67]LogContentValidation: Display: Validating ObjectRedirector /Game/BoarLevel/slowka/waterbase.waterbase
 [2020.12.10-14.49.56:992][ 67]LogContentValidation: Display: Validating ObjectRedirector /Game/BoarLevel/slowka/watertop.watertop
 [2020.12.10-14.50.08:977][ 66]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/MainLevel/slowka/level_start_animation.level_start_animation
+[2020.12.10-14.52.13:318][809]LogSlate: Window 'Sequencer' being destroyed
+[2020.12.10-14.52.13:320][809]LogSlate: Window 'Sequencer' being destroyed
+[2020.12.10-14.52.19:768][533]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fir_Tree17)
+[2020.12.10-14.52.21:714][550]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fir_Tree17)
+[2020.12.10-14.52.24:579][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Game" FILE="../../../../PiraciZKaribu/Dzik_scene/Content/Levels/Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.12.10-14.52.24:658][844]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.12.10-14.52.24:873][844]LogSavePackage: Moving '../../../../PiraciZKaribu/Dzik_scene/Saved/Game03AA49234504C5AAF33776B54CBC4E1F.tmp' to '../../../../PiraciZKaribu/Dzik_scene/Content/Levels/Game.umap'
+[2020.12.10-14.52.24:908][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Game_BuiltData" FILE="../../../../PiraciZKaribu/Dzik_scene/Content/Levels/Game_BuiltData.uasset" SILENT=true
+[2020.12.10-14.52.26:531][844]LogSavePackage: Moving '../../../../PiraciZKaribu/Dzik_scene/Saved/Game_BuiltData4DDBE3954D891DBFBA1C98A07A1E1E59.tmp' to '../../../../PiraciZKaribu/Dzik_scene/Content/Levels/Game_BuiltData.uasset'
+[2020.12.10-14.52.26:566][844]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.10-14.52.26:566][844]LogContentValidation: Display: Validating World /Game/Levels/Game.Game
+[2020.12.10-14.52.26:566][844]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Game_BuiltData.Game_BuiltData
