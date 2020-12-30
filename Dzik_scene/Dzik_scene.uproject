@@ -2,5 +2,12 @@
 	"FileVersion": 3,
 	"EngineAssociation": "{79D451B2-44E5-40BD-25FE-F9BBED764E12}",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"Plugins": [
+		{
+			"Name": "VaRest",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/e47be161e7a24e928560290abd5dcc4f"
+		}
+	]
 }
