@@ -51,19 +51,10 @@ bool UIOFile::ValidateLogin(FString login, FString password)
     {
         if (users[i] == loginStringify)
         {
-            UE_LOG(LogTemp, Warning, TEXT("valid login1"));
-
             ofstream myfile1;
             myfile1.open(directory + "Files/logged.txt");
             myfile1 << passwords[i];
             myfile1.close();
-
-
-            if (passwords[i] == "qwe")
-                UE_LOG(LogTemp, Warning, TEXT("password saved ok"));
-
-            if (passwordStringify == "qwe")
-                UE_LOG(LogTemp, Warning, TEXT("password from file ok"));
 
             if (passwords[i] == passwordStringify)
             {
@@ -83,9 +74,9 @@ bool UIOFile::ValidateLogin(FString login, FString password)
                     myfile.open(directory + "Files/logged.txt");
                     myfile << users[i];
                     myfile.close();
+                }     
 
-                    return true;
-                }              
+                return true;
             }           
         }
     }
