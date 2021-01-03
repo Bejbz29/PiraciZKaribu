@@ -1,0 +1,3 @@
+D:\studia\II stopien\2\Zaawansowane gry komputerowe\PiraciZKaribu\Dzik_scene\Intermediate\Build\Win64\UE4Editor\Development\Dzik_scene\Definitions.Dzik_scene.h
+D:\Gry\EpicGames\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Gry\EpicGames\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

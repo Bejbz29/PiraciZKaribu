@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Dzik_scene-0023.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\studia\II stopien\2\Zaawansowane gry komputerowe\PiraciZKaribu\Dzik_scene\Intermediate\Build\Win64\Dzik_sceneEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\studia\II stopien\2\Zaawansowane gry komputerowe\PiraciZKaribu\Dzik_scene\Intermediate\Build\Win64\UE4Editor\Development\Dzik_scene\Dzik_scene.cpp.obj"
+"D:\studia\II stopien\2\Zaawansowane gry komputerowe\PiraciZKaribu\Dzik_scene\Intermediate\Build\Win64\UE4Editor\Development\Dzik_scene\IOFile.cpp.obj"
+"D:\studia\II stopien\2\Zaawansowane gry komputerowe\PiraciZKaribu\Dzik_scene\Intermediate\Build\Win64\UE4Editor\Development\Dzik_scene\Dzik_scene.init.gen.cpp.obj"
+"D:\studia\II stopien\2\Zaawansowane gry komputerowe\PiraciZKaribu\Dzik_scene\Intermediate\Build\Win64\UE4Editor\Development\Dzik_scene\IOFile.gen.cpp.obj"
+"D:\studia\II stopien\2\Zaawansowane gry komputerowe\PiraciZKaribu\Dzik_scene\Intermediate\Build\Win64\UE4Editor\Development\Dzik_scene\Default.rc2.res"
+/OUT:"D:\studia\II stopien\2\Zaawansowane gry komputerowe\PiraciZKaribu\Dzik_scene\Intermediate\Build\Win64\UE4Editor\Development\Dzik_scene\UE4Editor-Dzik_scene-0023.lib"
+/INCLUDE:IMPLEMENT_MODULE_Dzik_scene

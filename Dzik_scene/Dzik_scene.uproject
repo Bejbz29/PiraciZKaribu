@@ -1,8 +1,18 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{79D451B2-44E5-40BD-25FE-F9BBED764E12}",
+	"EngineAssociation": "4.25",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Dzik_scene",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "VaRest",
