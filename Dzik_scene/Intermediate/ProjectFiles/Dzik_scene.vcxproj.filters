@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Dzik_scene.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8E72B445-0943-4AC8-BB31-AB0AA2610657}</UniqueIdentifier>
+      <UniqueIdentifier>{9AAA4AC3-A56F-476D-A703-592C7F31A617}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Dzik_scene.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{38A30A1C-0190-4C6C-9421-EDDBFA5DE911}</UniqueIdentifier>
+      <UniqueIdentifier>{8291D6AC-0446-4987-BDF3-78FA2383AFF0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Dzik_scene">
-      <UniqueIdentifier>{DAFD62FA-9EBB-4F56-B640-569744FF18C2}</UniqueIdentifier>
+      <UniqueIdentifier>{A6B75B79-F475-4593-8DFE-E0E96981312F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Dzik_scene\Dzik_scene.Build.cs">
       <Filter>Source\Dzik_scene</Filter>
