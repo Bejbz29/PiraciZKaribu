@@ -1,8 +1,8 @@
-﻿Log file open, 12/02/20 21:37:34
+﻿Log file open, 01/12/21 20:09:20
 LogInit: Display: Running engine for game: Dzik_scene
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.127530
+LogTaskGraph: Started task graph with 5 named threads and 17 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.113271
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -140,12 +140,12 @@ LogInit: Engine Version: 4.25.4-0+++UE4+Release-4.25
 LogInit: Compatible Engine Version: 4.25.0-0+++UE4+Release-4.25
 LogInit: Net CL: 0
 LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 5 2600 Six-Core Processor            , GPU: Radeon RX 580 Series
-LogInit: Compiled (64-bit): Nov 24 2020 12:52:40
-LogInit: Compiled with Visual C++: 19.27.29112.00
+LogInit: Compiled (64-bit): Jan  3 2021 15:07:52
+LogInit: Compiled with Visual C++: 19.28.29335.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
-LogInit: Command Line:  127.0.0.1:17777 -game -PIEVIACONSOLE -Multiprocess GameUserSettingsINI=C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/PIEGameUserSettings0.ini -MultiprocessSaveConfig -MultiprocessOSS -messaging -SessionName="Play in Standalone Game" -featureleveles31 -faketouches -MultiprocessSaveConfig -windowed -ResX=1280 -ResY=720
-LogInit: Base Directory: D:/UE4.25.4/Engine/Binaries/Win64/
+LogInit: Command Line:  /Game/Maps/Game -game -PIEVIACONSOLE -Multiprocess -server -logGameUserSettingsINI=C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/PIEGameUserSettings0.ini -MultiprocessSaveConfig -MultiprocessOSS -messaging -SessionName="Play in Standalone Game" -port=17777 -windowed
+LogInit: Base Directory: D:/ue4.25.4/UnrealEngine-4.25.4-release/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 0
 LogDevObjectVersion: Number of dev versions registered: 26
@@ -176,7 +176,7 @@ LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 3
 LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
 LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
-LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Engine.ini]
 LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
 LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
 LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
@@ -194,542 +194,431 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Engine.ini]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Engine.ini]
-[2020.12.02-20.37.35:053][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Engine.ini]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Engine.ini]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.12.02-20.37.35:053][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Engine.ini]
-[2020.12.02-20.37.35:053][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Engine.ini]
-[2020.12.02-20.37.35:059][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Scalability.ini]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Scalability.ini]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Scalability.ini]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Scalability.ini]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.12.02-20.37.35:059][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Scalability.ini]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Scalability.ini]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Scalability.ini]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.12.02-20.37.35:060][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Scalability.ini]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.12.02-20.37.35:061][  0]LogInit: Selected Device Profile: [Windows]
-[2020.12.02-20.37.35:061][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.12.02-20.37.35:061][  0]LogHAL: Display: Platform has ~ 16 GB [17128329216 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.12.02-20.37.35:061][  0]LogInit: Going up to parent DeviceProfile []
-[2020.12.02-20.37.35:061][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Scalability.ini]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Scalability.ini]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Scalability.ini]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Scalability.ini]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.12.02-20.37.35:061][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Scalability.ini]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Scalability.ini]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Scalability.ini]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Scalability.ini]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.12.02-20.37.35:062][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.12.02-20.37.35:063][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.12.02-20.37.35:063][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.12.02-20.37.35:063][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.12.02-20.37.35:063][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Saved/Config/Windows/Engine.ini]
-[2020.12.02-20.37.35:063][  0]LogInit: Computer: DESKTOP-G72MMHD
-[2020.12.02-20.37.35:063][  0]LogInit: User: Tomek
-[2020.12.02-20.37.35:063][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.12.02-20.37.35:063][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.12.02-20.37.35:063][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2020.12.02-20.37.35:063][  0]LogMemory: Platform Memory Stats for Windows
-[2020.12.02-20.37.35:063][  0]LogMemory: Process Physical Memory: 114.64 MB used, 114.65 MB peak
-[2020.12.02-20.37.35:063][  0]LogMemory: Process Virtual Memory: 95.45 MB used, 95.45 MB peak
-[2020.12.02-20.37.35:063][  0]LogMemory: Physical Memory: 10822.26 MB used,  5512.59 MB free, 16334.85 MB total
-[2020.12.02-20.37.35:063][  0]LogMemory: Virtual Memory: 5165.14 MB used,  134212560.00 MB free, 134217728.00 MB total
-[2020.12.02-20.37.35:068][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.12.02-20.37.35:100][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.12.02-20.37.35:100][  0]LogInit: Using OS detected language (pl-PL).
-[2020.12.02-20.37.35:100][  0]LogInit: Using OS detected locale (pl-PL).
-[2020.12.02-20.37.35:101][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
-[2020.12.02-20.37.35:102][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
-[2020.12.02-20.37.35:102][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
-[2020.12.02-20.37.35:102][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
-[2020.12.02-20.37.35:102][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
-[2020.12.02-20.37.35:102][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
-[2020.12.02-20.37.35:102][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
-[2020.12.02-20.37.35:102][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
-[2020.12.02-20.37.35:160][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.12.02-20.37.35:160][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.12.02-20.37.35:200][  0]LogHMD: Failed to initialize OpenVR with code 103
-[2020.12.02-20.37.35:200][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.12.02-20.37.35:200][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.12.02-20.37.35:200][  0]LogD3D11RHI: D3D11 adapters:
-[2020.12.02-20.37.35:265][  0]LogD3D11RHI:    0. 'Radeon RX 580 Series' (Feature Level 11_0)
-[2020.12.02-20.37.35:265][  0]LogD3D11RHI:       4041/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2020.12.02-20.37.35:268][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.12.02-20.37.35:268][  0]LogD3D11RHI:       0/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.12.02-20.37.35:268][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.12.02-20.37.35:278][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.12.02-20.37.35:278][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
-[2020.12.02-20.37.35:278][  0]LogWindows: EnumDisplayDevices:
-[2020.12.02-20.37.35:279][  0]LogWindows:    0. 'Radeon RX 580 Series' (P:1 D:1)
-[2020.12.02-20.37.35:280][  0]LogWindows:    1. 'Radeon RX 580 Series' (P:0 D:0)
-[2020.12.02-20.37.35:280][  0]LogWindows:    2. 'Radeon RX 580 Series' (P:0 D:0)
-[2020.12.02-20.37.35:281][  0]LogWindows:    3. 'Radeon RX 580 Series' (P:0 D:0)
-[2020.12.02-20.37.35:282][  0]LogWindows:    4. 'Radeon RX 580 Series' (P:0 D:0)
-[2020.12.02-20.37.35:282][  0]LogWindows:    5. 'Radeon RX 580 Series' (P:0 D:0)
-[2020.12.02-20.37.35:283][  0]LogWindows:    6. 'Radeon RX 580 Series' (P:0 D:0)
-[2020.12.02-20.37.35:283][  0]LogWindows:    7. 'Radeon RX 580 Series' (P:0 D:0)
-[2020.12.02-20.37.35:283][  0]LogWindows: DebugString: FoundDriverCount:8 
-[2020.12.02-20.37.35:283][  0]LogD3D11RHI:     Adapter Name: Radeon RX 580 Series
-[2020.12.02-20.37.35:283][  0]LogD3D11RHI:   Driver Version: Adrenalin 19.20 (internal:26.20.12028.2, unified:26.20.12028.2)
-[2020.12.02-20.37.35:283][  0]LogD3D11RHI:      Driver Date: 8-16-2019
-[2020.12.02-20.37.35:283][  0]LogRHI: Texture pool is 2404 MB (70% of 3434 MB)
-[2020.12.02-20.37.35:380][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
-[2020.12.02-20.37.35:380][  0]LogD3D11RHI: Async texture creation enabled
-[2020.12.02-20.37.35:380][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.12.02-20.37.35:392][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
-[2020.12.02-20.37.35:625][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.12.02-20.37.35:628][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.12.02-20.37.35:636][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.12.02-20.37.35:645][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.12.02-20.37.35:645][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.12.02-20.37.35:648][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.12.02-20.37.35:668][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Intermediate/Shaders/WorkingDirectory/8552/).
-[2020.12.02-20.37.35:669][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tomek/AppData/Local/Temp/UnrealShaderWorkingDir/DF33E0844C2296B2CFD7DE9F18603D1D/'.
-[2020.12.02-20.37.35:669][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.12.02-20.37.35:669][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.12.02-20.37.35:669][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.12.02-20.37.36:467][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.12.02-20.37.36:525][  0]LogDerivedDataCache: Loaded boot cache 0.06s 76MB C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/DerivedDataCache/Boot.ddc.
-[2020.12.02-20.37.36:525][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/DerivedDataCache/Boot.ddc
-[2020.12.02-20.37.36:525][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.12.02-20.37.36:525][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.12.02-20.37.36:525][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.12.02-20.37.36:525][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
-[2020.12.02-20.37.36:526][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
-[2020.12.02-20.37.36:527][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.12.02-20.37.36:527][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.12.02-20.37.36:540][  0]LogSlate: Using FreeType 2.10.0
-[2020.12.02-20.37.36:540][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.12.02-20.37.36:639][  0]LogInit: Using OS detected language (pl-PL).
-[2020.12.02-20.37.36:639][  0]LogInit: Using OS detected locale (pl-PL).
-[2020.12.02-20.37.36:639][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the language.
-[2020.12.02-20.37.36:639][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the locale.
-[2020.12.02-20.37.36:640][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2020.12.02-20.37.36:640][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2020.12.02-20.37.36:640][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
-[2020.12.02-20.37.36:643][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
-[2020.12.02-20.37.36:878][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.000956 seconds
-[2020.12.02-20.37.36:945][  0]LogInit: Selected Device Profile: [Windows]
-[2020.12.02-20.37.36:969][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.12.02-20.37.36:969][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.12.02-20.37.36:969][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.12.02-20.37.36:969][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.12.02-20.37.36:969][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.12.02-20.37.37:036][  0]LogNetVersion: Dzik_scene 1.0.0, NetCL: 0, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3233855641)
-[2020.12.02-20.37.37:307][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000026931517C80), frame # 0
-[2020.12.02-20.37.37:307][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002693152B740), frame # 0
-[2020.12.02-20.37.37:309][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000269315AD200), frame # 0
-[2020.12.02-20.37.37:385][  0]LogMoviePlayer: Initializing movie player
-[2020.12.02-20.37.37:498][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.12.02-20.37.37:500][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.12.02-20.37.37:524][  0]SourceControl: Source control is disabled
-[2020.12.02-20.37.37:524][  0]SourceControl: Source control is disabled
-[2020.12.02-20.37.37:529][  0]SourceControl: Source control is disabled
-[2020.12.02-20.37.37:586][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.12.02-20.37.37:591][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.12.02-20.37.37:591][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.12.02-20.37.37:621][  0]LogOcInput: OculusInput pre-init called
-[2020.12.02-20.37.37:637][  0]LogUObjectArray: 19064 objects as part of root set at end of initial load.
-[2020.12.02-20.37.37:637][  0]LogUObjectAllocator: 5015424 out of 0 bytes used by permanent object pool.
-[2020.12.02-20.37.37:637][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.12.02-20.37.37:680][  0]LogEngine: Initializing Engine...
-[2020.12.02-20.37.37:714][  0]LogHMD: Failed to initialize OpenVR with code 103
-[2020.12.02-20.37.37:714][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.12.02-20.37.37:716][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.12.02-20.37.37:833][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.12.02-20.37.37:835][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.12.02-20.37.37:835][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.12.02-20.37.37:835][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.12.02-20.37.37:835][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.12.02-20.37.37:835][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.12.02-20.37.37:835][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.12.02-20.37.37:835][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.12.02-20.37.37:835][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.12.02-20.37.37:835][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.12.02-20.37.37:835][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.12.02-20.37.37:850][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.02-20.37.37:850][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.12.02-20.37.37:882][  0]LogAudioMixer: Display: Using Audio Device Głośniki (2 — High Definition Audio Device)
-[2020.12.02-20.37.37:889][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.12.02-20.37.37:891][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.12.02-20.37.37:891][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.12.02-20.37.37:892][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.12.02-20.37.37:893][  0]LogInit: FAudioDevice initialized.
-[2020.12.02-20.37.37:895][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.12.02-20.37.37:895][  0]LogInit: Texture streaming: Enabled
-[2020.12.02-20.37.37:951][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.02-20.37.37:952][  0]LogInit: Display: Game Engine Initialized.
-[2020.12.02-20.37.37:952][  0]LogNiagaraEditor: Warning: GEditor isn't valid! Particle reset commands will not work for Niagara components!
-[2020.12.02-20.37.37:963][  0]LogInit: Display: Starting Game.
-[2020.12.02-20.37.37:963][  0]LogNet: Browse: 127.0.0.1:17777/Game/Levels/Game?Name=Player
-[2020.12.02-20.37.37:963][  0]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
-[2020.12.02-20.37.37:963][  0]LogNet: Created socket for bind address: 0.0.0.0 on port 0
-[2020.12.02-20.37.37:963][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.12.02-20.37.37:964][  0]LogNet: Game client on port 17777, rate 10000
-[2020.12.02-20.37.37:985][  0]LogLoad: (Engine Initialization) Total time: 4.08 seconds
-[2020.12.02-20.37.37:985][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.12.02-20.37.37:988][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.12.02-20.37.37:990][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.02-20.37.38:979][634]LogHandshake: SendChallengeResponse. Timestamp: 1.459072, Cookie: 105248059078241187243123113119207077058207083206054116075122
-[2020.12.02-20.37.39:012][724]LogNetVersion: Dzik_scene 1.0.0.0, NetCL: 0, EngineNetVer: 14, GameNetVer: 0 (Checksum: 480656900)
-[2020.12.02-20.37.39:012][724]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.12.02-20.37.39:046][810]LogNet: Welcomed by server (Level: /Game/Levels/Game, Game: /Game/GameModeState/GameModeBP.GameModeBP_C)
-[2020.12.02-20.37.39:046][810]LogLoad: LoadMap: 127.0.0.1:17777/Game/Levels/Game?Name=Player?game=/Game/GameModeState/GameModeBP.GameModeBP_C
-[2020.12.02-20.37.39:047][810]LogWorld: BeginTearingDown for /Temp/Untitled_0
-[2020.12.02-20.37.39:047][810]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.12.02-20.37.39:047][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.02-20.37.39:060][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
-[2020.12.02-20.37.39:272][810]LogWorld: Bringing World /Game/Levels/Game.Game up for play (max tick rate 0) at 2020.12.02-21.37.39
-[2020.12.02-20.37.39:272][810]LogWorld: Bringing up level for play took: 0.005354
-[2020.12.02-20.37.39:273][810]LogLoad: Took 0.226638 seconds to LoadMap(/Game/Levels/Game)
-[2020.12.02-20.37.39:287][812]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2020.12.02-20.37.39:413][839]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2020.12.02-20.37.39:413][839]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2020.12.02-20.37.39:447][862]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2020.12.02-20.37.52:098][697]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
-[2020.12.02-20.37.53:989][233]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
-[2020.12.02-20.37.54:493][839]LogBlueprintUserMessages: [PlayerControllerBP_C_0] Hello
-[2020.12.02-20.37.54:493][839]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:None Controller:PlayerControllerBP_C_0 controlling Pawn:PlayerBP_C_0 (if any of these is None then there's your problem
-[2020.12.02-20.37.54:493][839]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.12.02-20.37.56:652][812]LogSlate: Window 'Dzik_scene (64-bit Development PCD3D_ES31) ' being destroyed
-[2020.12.02-20.37.56:652][812]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.12.02-20.37.56:657][812]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.02-20.37.56:657][812]LogEngine: All Windows Closed
-[2020.12.02-20.37.56:657][812]LogWindows: FPlatformMisc::RequestExit(0)
-[2020.12.02-20.37.56:657][812]LogCore: Engine exit requested (reason: Win RequestExit)
-[2020.12.02-20.37.56:657][813]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
-[2020.12.02-20.37.56:658][813]LogAudio: Display: Shutting down audio device while 2 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
-[2020.12.02-20.37.56:696][813]LogInit: Display: PreExit Game.
-[2020.12.02-20.37.56:743][813]LogWorld: BeginTearingDown for /Game/Levels/Game
-[2020.12.02-20.37.56:743][813]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
-[2020.12.02-20.37.56:743][813]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
-[2020.12.02-20.37.56:743][813]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: NO, PC: PlayerControllerBP_C_0, Owner: PlayerControllerBP_C_0, UniqueId: NULL:DESKTOP-G72MMHD-83C44257433DD89B74F77F908623192A, Channels: 9, Time: 2020.12.02-20.37.56
-[2020.12.02-20.37.56:743][813]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: NO, PC: PlayerControllerBP_C_0, Owner: PlayerControllerBP_C_0, UniqueId: NULL:DESKTOP-G72MMHD-83C44257433DD89B74F77F908623192A
-[2020.12.02-20.37.56:743][813]LogExit: GameNetDriver IpNetDriver_0 shut down
-[2020.12.02-20.37.56:744][813]LogWorld: UWorld::CleanupWorld for Game, bSessionEnded=true, bCleanupResources=true
-[2020.12.02-20.37.56:744][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.02-20.37.57:737][813]LogExit: Preparing to exit.
-[2020.12.02-20.37.58:515][813]LogMoviePlayer: Shutting down movie player
-[2020.12.02-20.37.58:627][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.02-20.37.58:630][813]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
-[2020.12.02-20.37.58:632][813]LogExit: Game engine shut down
-[2020.12.02-20.37.58:641][813]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000026931517C80), frame # 13813
-[2020.12.02-20.37.58:641][813]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002693152B740), frame # 13813
-[2020.12.02-20.37.58:641][813]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000269315AD200), frame # 13813
-[2020.12.02-20.37.58:670][813]LogExit: Object subsystem successfully closed.
-[2020.12.02-20.37.58:685][813]LogShaderCompilers: Display: Shaders left to compile 0
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module GameplayDebugger (494)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module Voice (492)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (488)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module SequenceRecorder (486)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module AutomationController (484)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module AutomationWorker (482)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module OculusMR (480)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (478)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (476)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module WebMMedia (474)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (472)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (470)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (468)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (466)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (464)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module PlanarCut (462)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module CharacterAI (460)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module SessionServices (458)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (456)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module LiveCoding (454)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module LevelSequence (452)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (450)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module MovieScene (448)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (446)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module PortalServices (444)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module PortalRpc (442)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module MessagingRpc (440)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (438)
-[2020.12.02-20.37.58:692][813]LogModuleManager: Shutting down and abandoning module AudioMixerCore (437)
-[2020.12.02-20.37.58:693][813]LogModuleManager: Shutting down and abandoning module ProfilerService (434)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module TaskGraph (432)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module Synthesis (430)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (428)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module OculusInput (426)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (424)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module GooglePAD (422)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module EditableMesh (420)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (418)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module CableComponent (416)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module AudioCapture (414)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (413)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module AssetTags (410)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (408)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (406)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module AppleImageUtils (404)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module AndroidPermission (402)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (400)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (398)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module TemplateSequence (396)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (394)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (392)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (390)
-[2020.12.02-20.37.58:917][813]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (389)
-[2020.12.02-20.37.58:919][813]LogModuleManager: Shutting down and abandoning module MediaCompositing (386)
-[2020.12.02-20.37.58:919][813]LogModuleManager: Shutting down and abandoning module ImgMedia (384)
-[2020.12.02-20.37.58:919][813]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (382)
-[2020.12.02-20.37.58:919][813]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (380)
-[2020.12.02-20.37.58:919][813]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (378)
-[2020.12.02-20.37.58:919][813]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (376)
-[2020.12.02-20.37.58:919][813]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (374)
-[2020.12.02-20.37.58:919][813]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (372)
-[2020.12.02-20.37.58:919][813]LogModuleManager: Shutting down and abandoning module MeshConversion (370)
-[2020.12.02-20.37.58:919][813]LogModuleManager: Shutting down and abandoning module DynamicMesh (368)
-[2020.12.02-20.37.58:919][813]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (366)
-[2020.12.02-20.37.58:919][813]LogModuleManager: Shutting down and abandoning module GeometricObjects (364)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (362)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (361)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (358)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (357)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module GeometryCache (354)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (353)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module ChaosNiagara (350)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module ChaosCloth (348)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module BackChannel (346)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module AutomationUtils (344)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (342)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module HotReload (341)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (340)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (336)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module UObjectPlugin (334)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (332)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (330)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (328)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module SourceControl (327)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (324)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (322)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module SoundFields (320)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module SignificanceManager (318)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (316)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (314)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (310)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module ActorSequence (308)
-[2020.12.02-20.37.58:920][813]LogModuleManager: Shutting down and abandoning module UdpMessaging (306)
-[2020.12.02-20.37.59:021][813]LogModuleManager: Shutting down and abandoning module TcpMessaging (304)
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Engine.ini]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Engine.ini]
+[2021.01.12-19.09.21:104][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Engine.ini]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Engine.ini]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.01.12-19.09.21:104][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Engine.ini]
+[2021.01.12-19.09.21:104][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Engine.ini]
+[2021.01.12-19.09.21:104][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.12-19.09.21:105][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.12-19.09.21:106][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.12-19.09.21:106][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.12-19.09.21:106][  0]LogHAL: Display: Platform has ~ 16 GB [17128329216 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.01.12-19.09.21:106][  0]LogInit: Going up to parent DeviceProfile []
+[2021.01.12-19.09.21:106][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.12-19.09.21:106][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.12-19.09.21:107][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.12-19.09.21:108][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-19.09.21:108][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.12-19.09.21:108][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.12-19.09.21:108][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.12-19.09.21:108][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.12-19.09.21:108][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.12-19.09.21:108][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.12-19.09.21:108][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.12-19.09.21:108][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.01.12-19.09.21:108][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.01.12-19.09.21:108][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.01.12-19.09.21:108][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.01.12-19.09.21:108][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Saved/Config/Windows/Engine.ini]
+[2021.01.12-19.09.21:108][  0]LogInit: Computer: DESKTOP-G72MMHD
+[2021.01.12-19.09.21:108][  0]LogInit: User: Tomek
+[2021.01.12-19.09.21:108][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.01.12-19.09.21:108][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.12-19.09.21:108][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2021.01.12-19.09.21:108][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.12-19.09.21:108][  0]LogMemory: Process Physical Memory: 114.54 MB used, 114.54 MB peak
+[2021.01.12-19.09.21:108][  0]LogMemory: Process Virtual Memory: 111.35 MB used, 111.35 MB peak
+[2021.01.12-19.09.21:108][  0]LogMemory: Physical Memory: 8253.13 MB used,  8081.72 MB free, 16334.85 MB total
+[2021.01.12-19.09.21:108][  0]LogMemory: Virtual Memory: 5144.71 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2021.01.12-19.09.21:117][  0]LogWindows: WindowsPlatformFeatures disabled or dedicated server build
+[2021.01.12-19.09.21:141][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.01.12-19.09.21:141][  0]LogInit: Using OS detected language (pl-PL).
+[2021.01.12-19.09.21:141][  0]LogInit: Using OS detected locale (pl-PL).
+[2021.01.12-19.09.21:142][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2021.01.12-19.09.21:144][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
+[2021.01.12-19.09.21:144][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
+[2021.01.12-19.09.21:144][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
+[2021.01.12-19.09.21:144][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
+[2021.01.12-19.09.21:144][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
+[2021.01.12-19.09.21:144][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
+[2021.01.12-19.09.21:144][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
+[2021.01.12-19.09.21:462][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.01.12-19.09.21:468][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.01.12-19.09.21:479][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.01.12-19.09.21:490][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.01.12-19.09.21:490][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.01.12-19.09.21:501][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.01.12-19.09.21:578][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/Intermediate/Shaders/WorkingDirectory/18452/).
+[2021.01.12-19.09.21:578][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tomek/AppData/Local/Temp/UnrealShaderWorkingDir/44C004A541CDB2666AA1AD8CFD2C99DC/'.
+[2021.01.12-19.09.21:579][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.01.12-19.09.21:579][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.01.12-19.09.21:579][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.01.12-19.09.22:172][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.01.12-19.09.22:225][  0]LogDerivedDataCache: Loaded boot cache 0.05s 76MB C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/DerivedDataCache/Boot.ddc.
+[2021.01.12-19.09.22:225][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/DerivedDataCache/Boot.ddc
+[2021.01.12-19.09.22:225][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Tomek/Documents/GitHub/PiraciZKaribu/Dzik_scene/Dzik_scene/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.12-19.09.22:225][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.12-19.09.22:225][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.12-19.09.22:225][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2021.01.12-19.09.22:226][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2021.01.12-19.09.22:226][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.01.12-19.09.22:226][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.01.12-19.09.22:229][  0]LogInit: Using OS detected language (pl-PL).
+[2021.01.12-19.09.22:229][  0]LogInit: Using OS detected locale (pl-PL).
+[2021.01.12-19.09.22:229][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the language.
+[2021.01.12-19.09.22:229][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the locale.
+[2021.01.12-19.09.22:229][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
+[2021.01.12-19.09.22:232][  0]LogAssetRegistry: FAssetRegistry took 0.0016 seconds to start up
+[2021.01.12-19.09.22:460][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.001027 seconds
+[2021.01.12-19.09.22:518][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.12-19.09.22:562][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.12-19.09.22:563][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.01.12-19.09.22:563][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.01.12-19.09.22:563][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.01.12-19.09.22:563][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.01.12-19.09.22:581][  0]LogNetVersion: Dzik_scene 1.0.0, NetCL: 0, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3233855641)
+[2021.01.12-19.09.22:690][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000015E796CC1C0), frame # 0
+[2021.01.12-19.09.22:690][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000015E7961BEC0), frame # 0
+[2021.01.12-19.09.22:691][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000015E796DA400), frame # 0
+[2021.01.12-19.09.22:986][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.12-19.09.22:991][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.12-19.09.23:037][  0]SourceControl: Source control is disabled
+[2021.01.12-19.09.23:037][  0]SourceControl: Source control is disabled
+[2021.01.12-19.09.23:045][  0]SourceControl: Source control is disabled
+[2021.01.12-19.09.23:204][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.12-19.09.23:226][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.12-19.09.23:226][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.12-19.09.23:275][  0]LogOcInput: OculusInput pre-init called
+[2021.01.12-19.09.23:293][  0]LogUObjectArray: 18909 objects as part of root set at end of initial load.
+[2021.01.12-19.09.23:293][  0]LogUObjectAllocator: 4957328 out of 0 bytes used by permanent object pool.
+[2021.01.12-19.09.23:293][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.12-19.09.23:339][  0]LogEngine: Initializing Engine...
+[2021.01.12-19.09.23:340][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.01.12-19.09.23:353][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.01.12-19.09.23:353][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.01.12-19.09.23:354][  0]LogInit: Texture streaming: Disabled
+[2021.01.12-19.09.23:380][  0]LogInit: Display: Game Engine Initialized.
+[2021.01.12-19.09.23:380][  0]LogNiagaraEditor: Warning: GEditor isn't valid! Particle reset commands will not work for Niagara components!
+[2021.01.12-19.09.23:409][  0]LogInit: Display: Starting Game.
+[2021.01.12-19.09.23:410][  0]LogNet: Browse: /Game/Maps/Game?Name=Player
+[2021.01.12-19.09.23:410][  0]LogLoad: LoadMap: /Game/Maps/Game?Name=Player
+[2021.01.12-19.09.23:410][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2021.01.12-19.09.23:410][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-19.09.23:424][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.01.12-19.09.23:770][  0]LogAIModule: Creating AISystem for world Game
+[2021.01.12-19.09.23:770][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000015E00D85200), frame # 0
+[2021.01.12-19.09.23:771][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000015E00088B80), frame # 0
+[2021.01.12-19.09.23:771][  0]LogLoad: Game class is 'GameModeBP_C'
+[2021.01.12-19.09.23:771][  0]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2021.01.12-19.09.23:771][  0]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2021.01.12-19.09.23:771][  0]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2021.01.12-19.09.23:772][  0]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2021.01.12-19.09.23:772][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.12-19.09.23:772][  0]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2021.01.12-19.09.23:776][  0]LogWorld: Bringing World /Game/Maps/Game.Game up for play (max tick rate 30) at 2021.01.12-20.09.23
+[2021.01.12-19.09.23:777][  0]LogWorld: Bringing up level for play took: 0.004860
+[2021.01.12-19.09.23:777][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.01.12-19.09.23:777][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.01.12-19.09.23:778][  0]LogLoad: Took 0.367766 seconds to LoadMap(/Game/Maps/Game)
+[2021.01.12-19.09.23:787][  0]LogLoad: (Engine Initialization) Total time: 3.79 seconds
+[2021.01.12-19.09.23:787][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.01.12-19.09.24:186][ 11]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55997
+[2021.01.12-19.09.24:186][ 11]LogHandshake: SendConnectChallenge. Timestamp: 0.397349, Cookie: 066045169035217236099051127187235224066082196183190239006063
+[2021.01.12-19.09.24:550][ 22]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55997
+[2021.01.12-19.09.24:550][ 22]LogHandshake: SendChallengeAck. InCookie: 066045169035217236099051127187235224066082196183190239006063
+[2021.01.12-19.09.24:550][ 22]LogNet: Server accepting post-challenge connection from: 127.0.0.1:55997
+[2021.01.12-19.09.24:550][ 22]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.12-19.09.24:550][ 22]LogNet: NotifyAcceptedConnection: Name: Game, TimeStamp: 01/12/21 20:09:24, [UNetConnection] RemoteAddr: 127.0.0.1:55997, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.12-19.09.24:550][ 22]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:55997, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.12-19.09.24:882][ 32]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Game.Game: Accepted
+[2021.01.12-19.09.24:882][ 32]LogNet: Remote platform little endian=1
+[2021.01.12-19.09.24:882][ 32]LogNet: This platform little endian=1
+[2021.01.12-19.09.24:882][ 32]LogNetVersion: Dzik_scene 1.0.0.0, NetCL: 0, EngineNetVer: 14, GameNetVer: 0 (Checksum: 480656900)
+[2021.01.12-19.09.25:214][ 42]LogNet: Login request: ?Name=DESKTOP-G72MMHD-C7E26C6D491E20BDFDF0F0BCE48D1A09 userId: NULL:DESKTOP-G72MMHD-C7E26C6D491E20BDFDF0F0BCE48D1A09 platform: NULL
+[2021.01.12-19.09.25:313][ 45]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52920
+[2021.01.12-19.09.25:313][ 45]LogHandshake: SendConnectChallenge. Timestamp: 1.523932, Cookie: 184028116151065212108160079008248040023049076251034122253086
+[2021.01.12-19.09.25:313][ 45]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52921
+[2021.01.12-19.09.25:313][ 45]LogHandshake: SendConnectChallenge. Timestamp: 1.523932, Cookie: 016137166076041116030141178205168252081172164168173071049041
+[2021.01.12-19.09.25:346][ 46]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52920
+[2021.01.12-19.09.25:346][ 46]LogHandshake: SendChallengeAck. InCookie: 184028116151065212108160079008248040023049076251034122253086
+[2021.01.12-19.09.25:346][ 46]LogNet: Server accepting post-challenge connection from: 127.0.0.1:52920
+[2021.01.12-19.09.25:346][ 46]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.12-19.09.25:346][ 46]LogNet: NotifyAcceptedConnection: Name: Game, TimeStamp: 01/12/21 20:09:25, [UNetConnection] RemoteAddr: 127.0.0.1:52920, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.12-19.09.25:346][ 46]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:52920, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.12-19.09.25:346][ 46]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52921
+[2021.01.12-19.09.25:346][ 46]LogHandshake: SendChallengeAck. InCookie: 016137166076041116030141178205168252081172164168173071049041
+[2021.01.12-19.09.25:346][ 46]LogNet: Server accepting post-challenge connection from: 127.0.0.1:52921
+[2021.01.12-19.09.25:347][ 46]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.12-19.09.25:347][ 46]LogNet: NotifyAcceptedConnection: Name: Game, TimeStamp: 01/12/21 20:09:25, [UNetConnection] RemoteAddr: 127.0.0.1:52921, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.12-19.09.25:347][ 46]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:52921, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.12-19.09.25:347][ 46]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Game.Game: Accepted
+[2021.01.12-19.09.25:347][ 46]LogNet: Remote platform little endian=1
+[2021.01.12-19.09.25:347][ 46]LogNet: This platform little endian=1
+[2021.01.12-19.09.25:347][ 46]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Game.Game: Accepted
+[2021.01.12-19.09.25:347][ 46]LogNet: Remote platform little endian=1
+[2021.01.12-19.09.25:347][ 46]LogNet: This platform little endian=1
+[2021.01.12-19.09.25:379][ 47]LogNet: Login request: ?Name=DESKTOP-G72MMHD-4EC8C8C64C139AD52E55D2A3071FAD37 userId: NULL:DESKTOP-G72MMHD-4EC8C8C64C139AD52E55D2A3071FAD37 platform: NULL
+[2021.01.12-19.09.25:379][ 47]LogNet: Login request: ?Name=DESKTOP-G72MMHD-68C4FA8C499E7484C29924AFA735B53C userId: NULL:DESKTOP-G72MMHD-68C4FA8C499E7484C29924AFA735B53C platform: NULL
+[2021.01.12-19.09.25:544][ 52]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52922
+[2021.01.12-19.09.25:544][ 52]LogHandshake: SendConnectChallenge. Timestamp: 1.755133, Cookie: 208089236143013181025218233038108108133000031184091250216203
+[2021.01.12-19.09.25:544][ 52]LogNet: Client netspeed is 10000
+[2021.01.12-19.09.25:577][ 53]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52922
+[2021.01.12-19.09.25:577][ 53]LogHandshake: SendChallengeAck. InCookie: 208089236143013181025218233038108108133000031184091250216203
+[2021.01.12-19.09.25:577][ 53]LogNet: Server accepting post-challenge connection from: 127.0.0.1:52922
+[2021.01.12-19.09.25:577][ 53]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.12-19.09.25:577][ 53]LogNet: NotifyAcceptedConnection: Name: Game, TimeStamp: 01/12/21 20:09:25, [UNetConnection] RemoteAddr: 127.0.0.1:52922, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.12-19.09.25:577][ 53]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:52922, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.12-19.09.25:610][ 54]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Game.Game: Accepted
+[2021.01.12-19.09.25:610][ 54]LogNet: Remote platform little endian=1
+[2021.01.12-19.09.25:610][ 54]LogNet: This platform little endian=1
+[2021.01.12-19.09.25:610][ 54]LogNet: Join request: /Game/Maps/Game?Name=DESKTOP-G72MMHD-C7E26C6D491E20BDFDF0F0BCE48D1A09?SplitscreenCount=1
+[2021.01.12-19.09.25:611][ 54]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.12-19.09.25:611][ 54]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.01.12-19.09.25:612][ 54]LogBlueprintUserMessages: [GameModeBP_C_0] 1
+[2021.01.12-19.09.25:612][ 54]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.01.12-19.09.25:612][ 54]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.01.12-19.09.25:612][ 54]LogNet: Join succeeded: DESKTOP-G72MMHD-C7E2
+[2021.01.12-19.09.25:613][ 54]LogNet: Login request: ?Name=DESKTOP-G72MMHD-598988A74DB08123FA625DAF73FC792C userId: NULL:DESKTOP-G72MMHD-598988A74DB08123FA625DAF73FC792C platform: NULL
+[2021.01.12-19.09.25:809][ 60]LogNet: Client netspeed is 10000
+[2021.01.12-19.09.25:809][ 60]LogNet: Join request: /Game/Maps/Game?Name=DESKTOP-G72MMHD-68C4FA8C499E7484C29924AFA735B53C?SplitscreenCount=1
+[2021.01.12-19.09.25:809][ 60]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.12-19.09.25:809][ 60]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.01.12-19.09.25:809][ 60]LogBlueprintUserMessages: [GameModeBP_C_0] 2
+[2021.01.12-19.09.25:810][ 60]LogNet: Join succeeded: DESKTOP-G72MMHD-68C4
+[2021.01.12-19.09.25:810][ 60]LogNet: Client netspeed is 10000
+[2021.01.12-19.09.25:810][ 60]LogNet: Join request: /Game/Maps/Game?Name=DESKTOP-G72MMHD-4EC8C8C64C139AD52E55D2A3071FAD37?SplitscreenCount=1
+[2021.01.12-19.09.25:810][ 60]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.12-19.09.25:810][ 60]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.01.12-19.09.25:810][ 60]LogBlueprintUserMessages: [GameModeBP_C_0] 3
+[2021.01.12-19.09.25:810][ 60]LogNet: Join succeeded: DESKTOP-G72MMHD-4EC8
+[2021.01.12-19.09.26:074][ 68]LogNet: Client netspeed is 10000
+[2021.01.12-19.09.26:074][ 68]LogNet: Join request: /Game/Maps/Game?Name=DESKTOP-G72MMHD-598988A74DB08123FA625DAF73FC792C?SplitscreenCount=1
+[2021.01.12-19.09.26:074][ 68]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.12-19.09.26:075][ 68]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.01.12-19.09.26:075][ 68]LogBlueprintUserMessages: [GameModeBP_C_0] 4
+[2021.01.12-19.09.26:075][ 68]LogNet: Join succeeded: DESKTOP-G72MMHD-5989
