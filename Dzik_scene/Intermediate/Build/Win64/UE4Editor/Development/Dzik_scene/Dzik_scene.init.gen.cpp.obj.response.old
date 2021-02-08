@@ -230,8 +230,8 @@
 /I Runtime\Experimental\GeometryCollectionSimulationCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I C:\Users\Tomek\Documents\GitHub\PiraciZKaribu\Dzik_scene\Dzik_scene\Intermediate\Build\Win64\UE4Editor\Inc\Dzik_scene
-/I C:\Users\Tomek\Documents\GitHub\PiraciZKaribu\Dzik_scene\Dzik_scene\Source
+/I "D:\studia\II stopien\2\Zaawansowane gry komputerowe\PiraciZKaribu\Dzik_scene\Intermediate\Build\Win64\UE4Editor\Inc\Dzik_scene"
+/I "D:\studia\II stopien\2\Zaawansowane gry komputerowe\PiraciZKaribu\Dzik_scene\Source"
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -255,18 +255,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"D:\ue4.25.4\UnrealEngine-4.25.4-release\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"D:\ue4.25.4\UnrealEngine-4.25.4-release\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\ue4.25.4\UnrealEngine-4.25.4-release\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\Tomek\Documents\GitHub\PiraciZKaribu\Dzik_scene\Dzik_scene\Intermediate\Build\Win64\UE4Editor\Inc\Dzik_scene\Dzik_scene.init.gen.cpp"
-/FI"C:\Users\Tomek\Documents\GitHub\PiraciZKaribu\Dzik_scene\Dzik_scene\Intermediate\Build\Win64\UE4Editor\Development\Dzik_scene\Definitions.Dzik_scene.h"
-/Fo"C:\Users\Tomek\Documents\GitHub\PiraciZKaribu\Dzik_scene\Dzik_scene\Intermediate\Build\Win64\UE4Editor\Development\Dzik_scene\Dzik_scene.init.gen.cpp.obj"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
+/FI"D:\studia\II stopien\2\Zaawansowane gry komputerowe\PiraciZKaribu\Dzik_scene\Intermediate\Build\Win64\Dzik_sceneEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"D:\studia\II stopien\2\Zaawansowane gry komputerowe\PiraciZKaribu\Dzik_scene\Intermediate\Build\Win64\Dzik_sceneEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\studia\II stopien\2\Zaawansowane gry komputerowe\PiraciZKaribu\Dzik_scene\Intermediate\Build\Win64\Dzik_sceneEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"D:\studia\II stopien\2\Zaawansowane gry komputerowe\PiraciZKaribu\Dzik_scene\Intermediate\Build\Win64\UE4Editor\Inc\Dzik_scene\Dzik_scene.init.gen.cpp"
+/FI"D:\studia\II stopien\2\Zaawansowane gry komputerowe\PiraciZKaribu\Dzik_scene\Intermediate\Build\Win64\UE4Editor\Development\Dzik_scene\Definitions.Dzik_scene.h"
+/Fo"D:\studia\II stopien\2\Zaawansowane gry komputerowe\PiraciZKaribu\Dzik_scene\Intermediate\Build\Win64\UE4Editor\Development\Dzik_scene\Dzik_scene.init.gen.cpp.obj"
 /TP
 /GR-
 /W4
