@@ -1,8 +1,8 @@
-D:\studia\II stopien\2\Zaawansowane gry komputerowe\PiraciZKaribu\Dzik_scene\Intermediate\Build\Win64\UE4Editor\Development\Dzik_scene\Definitions.Dzik_scene.h
-D:\Gry\EpicGames\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\Gry\EpicGames\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\studia\II stopien\2\Zaawansowane gry komputerowe\PiraciZKaribu\Dzik_scene\Source\Dzik_scene/IOFile.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\INCLUDE\fstream
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\INCLUDE\string
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\INCLUDE\cctype
-D:\studia\II stopien\2\Zaawansowane gry komputerowe\PiraciZKaribu\Dzik_scene\Intermediate\Build\Win64\UE4Editor\Inc\Dzik_scene\IOFile.generated.h
+C:\Users\Tomek\Documents\GitHub\PiraciZKaribu\Dzik_scene\Dzik_scene\Intermediate\Build\Win64\UE4Editor\Development\Dzik_scene\Definitions.Dzik_scene.h
+D:\ue4.25.4\UnrealEngine-4.25.4-release\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\ue4.25.4\UnrealEngine-4.25.4-release\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Tomek\Documents\GitHub\PiraciZKaribu\Dzik_scene\Dzik_scene\Source\Dzik_scene/IOFile.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\INCLUDE\fstream
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\INCLUDE\string
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\INCLUDE\cctype
+C:\Users\Tomek\Documents\GitHub\PiraciZKaribu\Dzik_scene\Dzik_scene\Intermediate\Build\Win64\UE4Editor\Inc\Dzik_scene\IOFile.generated.h

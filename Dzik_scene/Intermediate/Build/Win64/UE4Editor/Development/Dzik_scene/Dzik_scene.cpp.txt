@@ -1,2 +1,2 @@
-D:\studia\II stopien\2\Zaawansowane gry komputerowe\PiraciZKaribu\Dzik_scene\Intermediate\Build\Win64\UE4Editor\Development\Dzik_scene\Definitions.Dzik_scene.h
-D:\studia\II stopien\2\Zaawansowane gry komputerowe\PiraciZKaribu\Dzik_scene\Source\Dzik_scene\Dzik_scene.h
+C:\Users\Tomek\Documents\GitHub\PiraciZKaribu\Dzik_scene\Dzik_scene\Intermediate\Build\Win64\UE4Editor\Development\Dzik_scene\Definitions.Dzik_scene.h
+C:\Users\Tomek\Documents\GitHub\PiraciZKaribu\Dzik_scene\Dzik_scene\Source\Dzik_scene\Dzik_scene.h
